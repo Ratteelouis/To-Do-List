@@ -1,0 +1,95 @@
+body {
+    background-color: azure;
+    text-align: center;
+}
+
+header {
+    margin-top: 50px;
+}
+
+input {
+    background-color: white;
+    border: 1px solid rgb(141, 141, 141);
+    border-radius: 5px;
+    width: 200px;
+    height: 30px;
+}
+
+.bt.input {
+    width: 80px;
+    height: 35px;
+    border-radius: 5px;
+    background-color: rgb(8, 155, 27);
+    border: 0px;
+    color: white;
+    margin-left: 10px;
+    transition: 0.3s ease;
+}
+
+.bt.input:hover {
+    background-color: rgb(8, 109, 22);
+    cursor: pointer;
+}
+
+#condition {
+    background-color: rgb(248, 46, 46);
+    color: white;
+    height: 50px;
+    align-content: center;
+    margin-top: 15px;
+    font-size: 16pt;
+    display: none;
+}
+
+#listItem {
+    /* border: 1px solid red; */
+    align-items: center;
+    max-width: 450px;
+    margin: 30px auto;
+    padding: 0;
+}
+
+.todo {
+    /* border: 1px solid red; */
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr;
+    width: 350px;
+    height: 35px;
+    margin: 10px auto;
+    align-items: center;
+    align-content: center;
+    background-color: #ffeed6;
+    border-radius: 10px;
+}
+
+.bt.edi {
+    width: 80px;
+    height: 35px;
+    border-radius: 5px;
+    background-color: rgb(255, 125, 39);
+    border: 0px;
+    color: white;
+    margin-left: 10px;
+    transition: 0.3s ease;
+}
+
+.bt.edi:hover {
+    background-color: rgb(224, 102, 21);
+    cursor: pointer;
+}
+
+.bt.del {
+    width: 80px;
+    height: 35px;
+    border-radius: 5px;
+    background-color: rgb(231, 13, 13);
+    border: 0px;
+    color: white;
+    margin-left: 10px;
+    transition: 0.3s ease;
+}
+
+.bt.del:hover {
+    background-color: rgb(155, 5, 5);
+    cursor: pointer;
+}
